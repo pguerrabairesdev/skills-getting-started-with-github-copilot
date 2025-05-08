@@ -144,6 +144,28 @@ button:hover {
   display: none;
 }
 
+.participants-list {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style-type: circle;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.participants-list li {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.participants-list li:last-child {
+  border-bottom: none;
+}
+
 footer {
   text-align: center;
   margin-top: 30px;
